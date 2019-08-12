@@ -1,0 +1,10 @@
+.title-row{
+  background-color: #333333;
+  min-height: 10vh;
+  color: white;
+}
+
+.info-row{
+  background-color: #c1c1c1;
+  min-height: 90vh;
+}
