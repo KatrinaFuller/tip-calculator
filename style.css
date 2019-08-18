@@ -1,11 +1,10 @@
-.title-row{
+.test{
   background-color: #333333;
-  min-height: 10vh;
+  /* min-height: 10vh; */
   color: white;
 };
 
-.info-row{
-  background-color: #c1c1c1;
-  min-height: 90vh;
+body > div > div.row > div{
+  background-color: red !important;
+  color: red !important;
 };
-
