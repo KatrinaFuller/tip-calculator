@@ -45,3 +45,7 @@
   background: pink;
   cursor: pointer;
 };
+
+.horizontal-row{
+  border: 1px solid black;
+}

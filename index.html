@@ -20,49 +20,74 @@
     </div>
     <div class="row info-row">
       <!-- total bill -->
-      <div class="col-sm-2 col-md-3">
-        <h5>Total bill:</h5>
-      </div>
-      <div class="col-sm-10 col-md-9">
-        <div class="input-group mb-3">
-          <div class="input-group-prepend">
-            <span class="input-group-text">$</span>
+      <div class="col-12">
+        <div class="row">
+          <div class="col-sm-2 col-md-3">
+            <h5>Total bill:</h5>
           </div>
-          <input type="text" class="form-control" aria-label="Amount">
+          <div class="col-sm-10 col-md-9">
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text">$</span>
+              </div>
+              <input type="text" class="form-control" aria-label="Amount">
+            </div>
+          </div>
         </div>
       </div>
+
       <!-- tip percentage -->
-      <div class="col-sm-2 col-md-3">
-        <h5>Tip:</h5>
+      <div class="col-12">
+        <div class="row">
+          <div class="col-sm-2 col-md-3">
+            <h5>Tip:</h5>
+          </div>
+          <div class="col-sm-10 col-md-9 slidecontainer">
+            <input type="range" min="1" max="30" value="20" class="slider" id="tipRange">
+            <!-- <p>Value: <span id="demo"></span></p> -->
+          </div>
+        </div>
       </div>
-      <div class="col-sm-10 col-md-9 slidecontainer">
-        <input type="range" min="1" max="30" value="20" class="slider" id="tipRange">
-        <!-- <p>Value: <span id="demo"></span></p> -->
-      </div>
+
       <!-- number of people to split between -->
-      <div class="col-sm-2 col-md-3">
-        <h5>Split (number of people):</h5>
+      <div class="col-12">
+        <div class="row">
+          <div class="col-sm-2 col-md-3">
+            <h5>Split (number of people):</h5>
+          </div>
+          <div class="col-sm-10 col-md-9 slidecontainer">
+            <input type="range" min="1" max="30" value="20" class="slider" id="tipRange">
+            <!-- <p>Value: <span id="demo"></span></p> -->
+          </div>
+        </div>
       </div>
-      <div class="col-sm-10 col-md-9 slidecontainer">
-        <input type="range" min="1" max="30" value="20" class="slider" id="tipRange">
-        <!-- <p>Value: <span id="demo"></span></p> -->
-      </div>
+
       <!-- horizontal line -->
-      <hr>
+
       <!-- new bill per person -->
-      <div class="col-sm-2 col-md-3">
-        <h5>New Bill (per person):</h5>
+      <div class="col-12">
+        <div class="row">
+          <div class="col-sm-2 col-md-3">
+            <h5>New Bill (per person):</h5>
+          </div>
+          <div class="col-sm-10 col-md-9">
+            <h5>$ 0</h5>
+          </div>
+        </div>
       </div>
-      <div class="col-sm-10 col-md-9">
-        <h5>$ 0</h5>
-      </div>
+
       <!-- tip amount per person -->
-      <div class="col-sm-2 col-md-3">
-        <h5>Tip Amount (per person):</h5>
+      <div class="col-12">
+        <div class="row">
+          <div class="col-sm-2 col-md-3">
+            <h5>Tip Amount (per person):</h5>
+          </div>
+          <div class="col-sm-10 col-md-9">
+            <h5>$ 0</h5>
+          </div>
+        </div>
       </div>
-      <div class="col-sm-10 col-md-9">
-        <h5>$ 0</h5>
-      </div>
+
     </div>
 
   </div>
