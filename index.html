@@ -28,7 +28,7 @@
           <div class="input-group-prepend">
             <span class="input-group-text">$</span>
           </div>
-          <input type="text" class="form-control" aria-label="Amount">
+          <input type="number" class="form-control" aria-label="Amount" id="total-bill">
         </div>
       </div>
 
@@ -55,7 +55,7 @@
         <h5>New Bill (per person):</h5>
       </div>
       <div class="col-sm-10 col-md-9">
-        <h5>$ 0</h5>
+        <h5 id="bill-per-person">$ 0</h5>
       </div>
 
       <!-- tip amount per person -->
@@ -64,13 +64,16 @@
         <h5>Tip Amount (per person):</h5>
       </div>
       <div class="col-sm-10 col-md-9">
-        <h5>$ 0</h5>
+        <h5 id="tip-per-person">$ 0</h5>
       </div>
 
 
     </div>
     <div class="row bottom-row align-items-center">
-      <div class="col-12 text-center">
+      <div class="col-6 text-center">
+        <button type="button" class="btn reset-button" onclick="calculate()">Calculate</button>
+      </div>
+      <div class="col-6 text-center">
         <button type="button" class="btn reset-button" onclick="reset()">Reset</button>
       </div>
     </div>
