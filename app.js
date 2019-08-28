@@ -23,7 +23,7 @@ function reset() {
   if (confirm("Are you sure you want to reset?")) {
     document.getElementById("tipRange").value = 20;
     tipPercent();
-    document.getElementById("peopleRange").value = 4;
+    document.getElementById("peopleRange").value = 1;
     peopleRange();
     document.getElementById("total-bill").value = 0;
 
